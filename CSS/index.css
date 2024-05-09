@@ -5,19 +5,26 @@ header {
     font-weight: 400;
     word-wrap: break-word;
     color: #343434;
-    margin: 1px;
     display: flex;
     justify-content: space-between;
+    height: 73px;
+    margin-bottom: 80px;
 }
 
-#HeroSection {
+.HeroSection {
     display: flex;
-    justify-items: center;
     flex-direction: column;
-    height: auto;
-    width: auto;
-    margin-top: 13%;
+    margin: 0px;
 }
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 34px;
+    padding-bottom: 68px;
+}
+
 h1 {
     font-family: "Red Hat Mono";
     font-size: 70px;
@@ -32,37 +39,45 @@ h1 {
 #TextBackground {
     width: 623px;
     height: 57px;
+    top: 165px;
     background-color: #EE7979;
-    margin-left: 25%;
-    position: relative;
-    top: -95px;
     z-index: -1;
+    position: absolute;
+}
+
+.subHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
  p1 {
     font-family: "Red Hat Mono";
     font-size: 26px;
     font-weight: 400;
-    width: auto;
-    margin: 0% 1%;
+    width: 830px;
+    margin: auto;
     padding: 0%;
-    color: #343434;
+    color: #828282;
     text-align: center;
 }
 
 hr {
-    width: 50%;
+    width: 880px;
     border: none;
     height: 2px;
     background: white;
-    margin-top: 4%;
-    margin-bottom: 4%;
 }
 
 body {
     background-color: #F1F1F1;
+    margin: 0;
 }
 
+.sectionTitle2 {
+    display: flex;
+    justify-content: center;
+}
 
 h2 {
     font-family: "Red Hat Mono";
@@ -81,19 +96,24 @@ h2 {
 #TextBackground2 {
     width: 223px;
     height: 23px;
+    top: 468px;
     background-color: #EE7979;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: -4%;
+    z-index: -1;
+    position: absolute;
+}
+
+.caseStudy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #placeholder {
     background: #D9D9D9;
     width: 880px;
     height: 587px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-bottom: 16px;
 }
 
 #CaseDescription {
@@ -102,7 +122,8 @@ h2 {
     font-weight: 400;
     color: #343434;
     text-align: center;
-    padding: 3% 10% 2% 10%;
+    width: 880px;
+    margin:auto;
 }
 
 .button-container {
@@ -148,23 +169,36 @@ button {
 
 footer {
     background-color: #D9D9D9;
-    margin: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-ul {
-    list-style-type: none;
-    margin: none;
-    padding: none;
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
 }
 
-li {
-    display: inline-block;
+.subheadings h3 {
     font-family: "Red Hat Mono";
+    font-weight: 400;
+    padding: 0 51px;
+    color: #565656;
+    display: inline-block
 }
 
-.media-links {
-    display: inline-block;
-    margin-left: 40%;
-    height: 10px;
-    width: 10px;
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 66px 0;
+
+}
+
+.social-media-icons svg {
+    width: 24px;
+    height: 24px;
+    margin: 0 51px;
 }
