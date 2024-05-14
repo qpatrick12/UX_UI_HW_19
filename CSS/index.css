@@ -1,10 +1,4 @@
 header {
-    font-family: "Red Hat Mono";
-    padding: 0% 2%;
-    font-size: 20px;
-    font-weight: 400;
-    word-wrap: break-word;
-    color: #343434;
     display: flex;
     justify-content: space-between;
     height: 73px;
@@ -51,7 +45,7 @@ h1 {
     justify-content: center;
 }
 
- p1 {
+p1 {
     font-family: "Red Hat Mono";
     font-size: 26px;
     font-weight: 400;
@@ -201,4 +195,60 @@ footer {
     width: 24px;
     height: 24px;
     margin: 0 51px;
+}
+
+/* styling for JQuery function on 'Quinn Blanchfield'*/
+
+#toggle {
+    width: 256px;
+    padding: 10px;
+    font-family: "Red Hat Mono";
+    font-size: 20px;
+    font-weight: 400;
+    color: #343434;
+    align-self: center;
+    text-align:center;
+}
+
+#about {
+    width: 256px;
+    padding: 10px 39px 10px 10px;
+    font-family: "Red Hat Mono";
+    font-size: 20px;
+    font-weight: 400;
+    color: #343434;
+    text-align: right;
+    align-self: center;
+}
+
+#dropdown {
+    position: absolute;
+    top: 72px;
+    width: 276px;
+    display:none;
+}
+
+img {
+    width: 100%;
+}
+
+#name {
+    font-family: "Red Hat Mono";
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 365px;
+    margin-left: 20px;
+}
+
+#bodyText {
+    font-family: "Red Hat Mono";
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 400px;
+    margin: 0px 20px;
+    text-align: justify;
 }
